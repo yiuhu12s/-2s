@@ -1,0 +1,5 @@
+      QueryJobConfiguration queryConfig =
+          QueryJobConfiguration.newBuilder(query).setDryRun(true).setUseQueryCache(false).build();
+
+      Job job = bigquery.create(JobInfo.of(queryConfig));
+      JobStatistics.QueryStatistics statistics = job.getStatistics();
