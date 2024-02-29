@@ -1,0 +1,7 @@
+
+      System.out.println(
+          "Query dry run performed successfully." + statistics.getTotalBytesProcessed());
+    } catch (BigQueryException e) {
+      System.out.println("Query not performed \n" + e.toString());
+    }
+  }
