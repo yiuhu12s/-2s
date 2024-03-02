@@ -1,0 +1,7 @@
+bullet_sound.set_volume(0.2)
+bomb_sound = pygame.mixer.Sound("sound/use_bomb.wav")
+bomb_sound.set_volume(0.2)
+supply_sound = pygame.mixer.Sound("sound/supply.wav")
+supply_sound.set_volume(0.2)
+get_bomb_sound = pygame.mixer.Sound("sound/get_bomb.wav")
+get_bomb_sound.set_volume(0.2)
