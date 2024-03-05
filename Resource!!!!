@@ -1,0 +1,5 @@
+                  TankWar.class.getResource("/pic/whiteback.jpg"));
+        } catch (Exception e) {
+        }
+ 
+        p.setBorder(BorderFactory.createEtchedBorder(Color.BLACK, Color.WHITE));
