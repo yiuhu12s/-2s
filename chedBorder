@@ -1,0 +1,6 @@
+ 
+        p.setBorder(BorderFactory.createEtchedBorder(Color.BLACK, Color.WHITE));
+        p.setSize(AREA_WIDTH, AREA_HEIGHT);
+        messgePanel.setBounds(AREA_WIDTH, 0, 200, AREA_HEIGHT);
+        gamePanel.add(messgePanel);
+        gamePanel.add(p);
