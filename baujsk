@@ -1,0 +1,3 @@
+            Const.backgroundImgResid = R.drawable.mapds48_001;
+            Const.gameArrayStrResid = R.string.didong_level;
+            Const.voiceBackground = R.raw.level;
