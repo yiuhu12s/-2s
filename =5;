@@ -1,0 +1,6 @@
+	y=5;
+	for(i=1;i<=9;i++)
+	{
+		gotoxy(x,y);
+		printf("%2d ",i);
+		x+=3;
