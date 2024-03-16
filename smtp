@@ -1,0 +1,2 @@
+smtp.send_message(email)   ## Sending email
+print("email send")    ## Printing success message
