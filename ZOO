@@ -1,0 +1,2 @@
+smtp.starttls()      ## used to send data between server and client
+smtp.login("email_id","Password") ## login id and password of gmail
